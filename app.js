@@ -87,7 +87,7 @@ const createSlider = () => {
     sliders.forEach(slide => {
       let item = document.createElement('div')
       item.className = "slider-item";
-      item.innerHTML = `<img class="w-100"
+      item.innerHTML = `<img class="w-100 slider-img"
       src="${slide}"
       alt="">`;
       sliderContainer.appendChild(item)

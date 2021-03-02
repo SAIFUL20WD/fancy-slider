@@ -24,7 +24,16 @@
 }
 
 img {
-  height: 400px;
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 255px;
+  max-width: 255px;
+  object-fit: cover;
+}
+
+.slider-img {
+  min-height: 400px;
+  min-width: 100%;
   object-fit: cover;
 }
 
